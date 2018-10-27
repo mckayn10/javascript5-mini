@@ -3,19 +3,20 @@ import logo from './logo.svg';
 import './App.css';
 
 class App extends Component {
-  constuctor(props) {
-
-    this.state = {
-      myName: 'Joe'
-    }
+  
+  state = {
+    myName: 'Joe'
   }
+
+  
   render() {
     return (
       <div className="App">
-        My name is { this.state.myName }
+        <div>My name is {this.state.myName} </div>
       </div>
     );
   }
 }
+
 
 export default App;
